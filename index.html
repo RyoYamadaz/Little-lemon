@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+  <title> Little Lemon Reservations </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/fff29731d5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Playwrite België Walloon|Calistoga|IBM Plex Mono|Sofia|Trirong|IBM Plex Sans|Signika Negative|Playwrite Argentina|Audiowide|Dancing Script|Bebas Neue">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class='header'>
+      <center>
+          <img class='logo' src="lemon logo.jpg"/>
+          <div>
+          <button class='header_buttons'>
+              Home
+          </button>
+          <button class='header_buttons'>
+              About
+          </button>
+          <button class='header_buttons'>
+              Menu
+          </button>
+          <button class='header_buttons'>
+              Reservations
+          </button>
+          <button class='header_buttons'>
+              Order online
+          </button>
+          <button class='header_buttons'>
+              Login
+          </button>
+          </div>
+      </center>
+  </div>
+    
+    
+  <div class='about'> 
+      <div class='about_text'>
+      <h1> Little Lemon </h1>
+      <h2> Chicago </h2>
+      <h3> We are a family owned Mediterrenean restaurant, focused on traditional recipes served with a modern twist </h3>
+      <button class='Reserve_btn'> Reserve a Table </button>
+      </div>
+      <img src=sample.jpg  class="sample">
+  </div>
+    
+    
+    <div class="specials">
+        <div class="Titles">
+            <div class="title"> This Week's Specials </div>
+            <button class="Reserve_btn menubtn"> Online Menu </button>
+        </div>
+    <menu>
+        <div class="specialsbox">
+            <div class='specialspic'>
+                <img src="sam1.jpg">
+            </div>
+            <div class='specialstext'>
+                <span> Greek Salad </span>
+                <tag> $13.20 </tag>
+            </div>
+        </div>
+            
+        <div class="specialsbox">
+            <div class='specialspic'>
+                <img src='sam2.JPG'>
+            </div>
+            <div class='specialstext'>
+                <span> Bruchetta </span>
+                <tag> $5.00 </tag>
+            </div>
+        </div>
+            
+        <div class="specialsbox">
+            <div class='specialspic'>
+                <img src='sam3.JPG'>
+            </div>
+            <div class='specialstext'>
+                <span> Lemon dessert </span>
+                <tag> $5.99 </tag>
+            </div>
+        </div>
+    </menu>
+    </div>
+    
+    
+    <div class='about reservation'> 
+      <div class='about_text'>
+      <h2 class="reservation_text"> Reservations </h2>
+          <div class="seatings">
+              <div class="indoor">
+                  <input type='radio' name="type" id=indoor>
+                  <label for=indoor> Indoor Seating </label>
+                  <div class>
+                      <label> Date </label><br>
+                          <input type='date' placeholder="Select date" class="date"> 
+                  </div>
+                  <div class="Occasion">
+                      <label> Occasion </label><br>
+                      <select required>
+                          <option> Select Occasion </option>
+                      </select>
+                  </div>                  
+              </div>
+              
+              <div class="outdoor">
+                  <input type='radio' name="type" id=outdoor>
+                  <label for=outdoor> Outdoor Seating </label>
+                  <div class="No_of_diners">
+                      <label> No. of Diners </label><br>
+                      <select required>
+                          <option> No. of Diners </option>
+                      </select>
+                  </div>
+                  <div class="time">
+                      <label> Select Time </label><br>
+                      <select required>
+                          <option> Select Time </option>
+                      </select>
+                  </div>                  
+              </div>
+          </div>
+      </div>
+  </div>
+
+<center>
+    <admenu>
+            <img src='spec1.jpg'>
+            <img src="spec2.jpg">
+            <img src="spec3.jpg">
+    </admenu>
+</center>
+    
+    <center><button class='Reserve_btn btnbtn'> Reserve a Table </button></center>
+</body>
